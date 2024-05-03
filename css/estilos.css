@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Kranky&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/fodo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#contenedor {
+    width: 1000px;
+    height: 1100px;
+    background-image: url('../img/background2.jpg');
+}
+
+#imagenes {
+    height: 300px;
+    display: flex;
+}
+
+.imgCabecera{
+    display: flex;
+    position: relative;
+}
+
+.imgCabecera span {
+    font-family: "Kranky", serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    color: #7b2146;
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    font-size: 20px;
+}
+
+#menu li {
+    list-style: none;
+    background-color: #a277ad;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+#imgDecoracion {
+    display: flex;
+    justify-content: center;
+}
+
+#imgDecoracion img {
+    height: 230px;
+}
+
+#contenido {
+    height: 460px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+#pie {
+    height: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 5px 50px;
+    font-size: 20px;
+}
+
+#pie li {
+    list-style: none;
+    color: white;
+}
+
+#historia {
+    height: 460px;
+    position: relative;
+}
+
+#historia div {
+    height: 50%;
+    text-align: center;
+}
+
+#video {
+    display: flex;
+    align-items: center;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+}
+
+#titulo h1 {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    color: #962d59;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+#titulo img {
+    width: 80px;
+    height: 80px;
+}
+
+#escaparate {
+    width: 600px;
+    height: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#escaparate h2 {
+    color: purple;
+    border-radius: 10px;
+    border-style: dotted;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#escaparate img {
+    width: 600px;
+    height: 450px;
+    padding-top: 30px;
+}
+
+#tablaProductos {
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+    height: 72px
+}
+
+table {
+    border-spacing: 5px;
+    table-layout: fixed;
+    font-size: 25px;
+    color: #962d59;
+}
+
+td span {
+    display: block;
+}
+
+.producto {
+    border: 1px solid white;
+}
+
+.cabecera {
+    background-color: #fae3ec;
+}
+
+#contenidoEventos {
+    text-align: center;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#contenidoEventos h3 {
+    height: 40px;
+}
+
+#cuadroEventos {
+    display: flex;
+    justify-content: center;
+}
+
+.evento {
+    margin: 0 2px;
+}
+
+.evento img{
+    height:330px
+}
+
+.evento span{
+    display: block;
+    height: 30px;
+}
+
+#cuadroContacto{
+    text-align: center;
+}
+
+
+.cuadroLabelInput{
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroLabelInput label {
+        display: inline-block;
+        padding: 1px;
+        margin-right: 10px;
+        width: 200px;
+        text-align: right;
+}
+
+.cuadroInput{
+    width: 600px;
+    display: inline-block;
+    text-align: left;
+}
+
+#cuadroDireccion{
+    display: flex;
+    justify-content: center;
+}
+
+#cuadroDireccion iframe {
+    height: 200px;
+    width:900px
+}
+#cuadroPreguntas {
+    display: flex;
+    justify-content: center;
+}
+#cuadroPreguntas table{
+    width: 900px;
+    height: 60px;
+}
+
+#indicaciones {
+    display: flex;
+    justify-content: center ;
+}
+
+#cuadroIndicaciones{
+    width: 900px;
+    height: 410px;
+    display: flex;
+}
+
+#cuadroDatos {
+    width: 655px;
+}
+#formDatos div {
+    display: flex;
+    align-items: center;
+}
+
+.apartado {
+    height: 50px;
+}
+
+#formDatos label{
+    display: inline-block;
+    width: 100px;
+}
+
+
+#cuadroIndicacion {
+    width: 245px;
+}
+
+#cuadroIndicacion p{
+    height: 33%;
+}
+
+#formDatos button {
+    height: 50px;
+   
+}
+
+button img{
+    height: 100%;
+    
+  
+}
+
+#divBtn {
+    width: 496px;
+    display: flex;
+    justify-content: end;
+    padding-right: 110px;
+}
+
+p img{
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.parrafoEnviar{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#contenidoEventos h3 {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    color: purple;
+
+}
+
+#contenidoEventos span {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    color: purple;
+
+}
+
+

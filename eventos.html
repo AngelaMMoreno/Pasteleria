@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="cabecera">
+            <div id="imagenes">
+                <img src="img/logo.jpg" alt="Logo" id="logo">
+                <div class="imgCabecera">
+                <span>Pastelería Délice</span>
+                <img src="img/img1.jpg" width="700" alt="Pasetelería" id="pasteleria">
+                </div>
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div id="contenidoEventos">
+            <div style="width: 100%;">
+                <h3>¿Tienes algún evento especial?</h3>
+                <div id="cuadroEventos">
+                    <div class="evento"><span>Babyshower</span><img src="img/baby.png" alt=""></div>
+                    <div class="evento"><span>Bodas</span><img src="img/boda.jpg" alt=""></div>
+                </div>
+                <div class="separador">
+                    <hr size="6px" color="#962d59">
+                </div>
+                <div id="cuadroContacto">
+                    <h3>¡Envíanos la información!</h3>
+                    <form id="formContacto" action="mailto:cccoboss12@gmail.com" method="post">
+                        <div class="cuadroLabelInput"><label for="nom">Nombre</label>
+                            <div class="cuadroInput"><input type="text" name="nom" id="nom"></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="ape">Apellidos</label>
+                            <div class="cuadroInput"><input type="text" name="ape" id="ape"></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="tel">Teléfono</label>
+                            <div class="cuadroInput"><input type="tel" name="tel" id="tel"></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="email">Email</label>
+                            <div class="cuadroInput"><input type="email" name="email" id="email"></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="dire">Dirección</label>
+                            <div class="cuadroInput"><input type="text" name="dire" id="dire"></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="pobl">Población</label>
+                            <div class="cuadroInput"><select name="pobl" id="pobl">
+                                    <option value="0">Elige tu población</option>
+                                    <option value="1">Alicante</option>
+                                    <option value="2">Barcelona</option>
+                                    <option value="3">Bilbao</option>
+                                    <option value="4">Madrid</option>
+                                </select></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label>Tipo de evento</label>
+                            <div class="cuadroInput">
+                                <input type="radio" value="boda" name="radioEvento" id="radioBoda">Boda
+                                <input type="radio" value="baby" name="radioEvento" id="radioBaby">Babyshower
+                                <input type="radio" value="cumple" name="radioEvento" id="radioCumple">Cumpleaños
+                                <input type="radio" value="empre" name="radioEvento" id="radioEmpresa">Empresa
+                                <input type="radio" value="otros" name="radioEvento" id="radioOtro">Otro
+                            </div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="entr">¿Entrega a domicilio?</label>
+                            <div class="cuadroInput">
+                                <input type="radio" value="si" name="radioEntraga" id="radioSI">Sí
+                                <input type="radio" value="no" name="radioEntraga" id="radioNo">No, recoger en tienda
+                            </div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="idea">Coméntanos tu idea</label>
+                            <div class="cuadroInput">
+                                <!-- Si le pongo rows 50 se sale de la página-->
+                                <textarea cols="50" name="idea" id="idea"></textarea></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="foto">Puedes adjuntar una foto</label>
+                            <div class="cuadroInput"><input type="file" name="foto" id="foto"></div>
+                        </div>
+                        <div class="cuadroLabelInput"><label for="opcion">Opción: Enviar o Resetear</label>
+                            <div class="cuadroInput">
+                                <input type="reset" style="padding: 2px;"  id="enviar">
+                                <input type="submit" style="padding: 2px;" id="reset">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <ul id="pie">
+            <li>Aviso legal/Política de cookies</li>
+            <li>@Autor: Ángela Moreno Moreno 1º de DAW</li>
+        </ul>
+    </div>
+</body>
+
+</html>
